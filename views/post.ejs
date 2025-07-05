@@ -1,0 +1,14 @@
+<%- include("partials/header") %>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= post.title %></title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <h1><%= post.title %></h1>
+    <p><%= post.content %></p>
+    <a href="/" class="button-link">← Back</a>
+  </body>
+</html>
+<%- include("partials/footer") %>

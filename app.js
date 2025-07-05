@@ -1,4 +1,4 @@
-// app.js
+// app.js (this is a blog capstone project)
 import express from "express";
 import bodyParser from "body-parser";
 import { fileURLToPath } from "url";
